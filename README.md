@@ -13,7 +13,7 @@ This open-source Python tool helps you recover a lost Bitcoin/Crypto BIP39 seed 
 ```bash
 pip install -r requirements.txt
 pip install bip-utils
-recover.py
+recovery.py
 
 
 Eksik olan kelime sayısı birden fazlaysa (örneğin 2 veya 3 kelime), kodun içine iç içe geçmiş `for` döngüleri eklemeniz gerekir. Ancak unutmayın, eksik kelime sayısı arttıkça denenecek kombinasyon sayısı geometrik olarak artar ($2048^2 = 4.19$ milyon, $2048^3 = 8.5$ milyar kombinasyon).
